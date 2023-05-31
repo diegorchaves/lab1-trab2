@@ -183,7 +183,7 @@ int main ()
                         pont_rod = rank;
                         }
                         rank = 1;
-                        if (qtd_relancamentos = 0)
+                        if (qtd_relancamentos == 0)
                         {
                             pont_rod = pont_rod +5;
                         }
@@ -193,7 +193,7 @@ int main ()
                         pont_rod = doub;
                         }
                         doub = 1;
-                        if (qtd_relancamentos = 0)
+                        if (qtd_relancamentos == 0)
                         {
                             pont_rod = pont_rod +5;
                         }
@@ -203,7 +203,7 @@ int main ()
                         pont_rod = max;
                         }
                         max = 1;
-                        if (qtd_relancamentos = 0)
+                        if (qtd_relancamentos == 0)
                         {
                             pont_rod = pont_rod +5;
                         }
@@ -269,7 +269,7 @@ int main ()
                 pont_rod = max_c;
                 max_c = 1;
                 printf ("\nO computador marcou MAX.\n");
-                if (qtd_relancamentos = 0)
+                if (qtd_relancamentos == 0)
                 {
                     pont_rod = pont_rod +5;
                 }  
@@ -280,7 +280,7 @@ int main ()
                 pont_rod = doub_c;
                 doub_c = 1;
                 printf ("\nO computador marcou DOUBLE.\n");
-                if (qtd_relancamentos = 0)
+                if (qtd_relancamentos == 0)
                 {
                     pont_rod = pont_rod +5;
                 }
@@ -291,7 +291,7 @@ int main ()
                 pont_rod = rank_c;
                 rank_c = 1;
                 printf ("\nO computador marcou RANK.\n");
-                if (qtd_relancamentos = 0)
+                if (qtd_relancamentos == 0)
                 {
                     pont_rod = pont_rod +5;
                 }
